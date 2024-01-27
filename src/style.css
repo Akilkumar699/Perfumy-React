@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: black;
+}
+
+.container h1{
+    color: white;
+}
+
+.list{
+    display: flex;
+    gap: 10px;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.image{
+    width: 30%;
+    text-align: center;
+}
+
+.image img{
+    max-width: 100%;
+}
+
